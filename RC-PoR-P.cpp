@@ -5,23 +5,19 @@
 // To encrypt such proofs efficiently one-time pad has been used in this implementation. 
 
 
-
+/////////////////////////////////
 // # Dependencies: 
-// Cryptopp: https://cryptopp.com
-// The GNU Multiple Precision Arithmetic Library (GMP): https://gmplib.org
+//   Cryptopp: https://cryptopp.com
+//   The GNU Multiple Precision Arithmetic Library (GMP): https://gmplib.org
 ////////////////////////////////
-
-
-//# Runnig a Test
-
-// (1) clone the above libraries, as well as the ``RC-PoR-P-Source-code`` repository. 
-// (2) install the libraries and unzip the ``RC-PoR-P-Source-code-main`` file. 
-// (3) run the following command lines in order:
-
-//  cd RC-PoR-P-Source-code-main
-//  g++ -c Rand.cpp
-//  g++ -I /PATH-TO-CRYPTOPP Rand.o RC-PoR-P.cpp /Users/PATH-TO:libcryptopp.a  -o main -lgmpxx -lgmp
-//  ./main
+//# Runnig a Test:
+//   (1) clone the above libraries, as well as the ``RC-PoR-P-Source-code`` repository. 
+//   (2) install the libraries and unzip the ``RC-PoR-P-Source-code-main`` file. 
+//   (3) run the following command lines in order:
+//        cd RC-PoR-P-Source-code-main
+//        g++ -c Rand.cpp
+//        g++ -I /PATH-TO-CRYPTOPP Rand.o RC-PoR-P.cpp /Users/PATH-TO:libcryptopp.a  -o main -lgmpxx -lgmp
+//       ./main
 //////////////////////////////
 
 
